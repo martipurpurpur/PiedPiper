@@ -1,0 +1,181 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  width: 100%;
+  position: fixed;
+  background: #007765;
+}
+
+.header {
+  height: 84px;
+  padding-right: 55px;
+  padding-left: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin: 0 0 0 auto;
+  width: 424px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a, span {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  height: 403px;
+  background-image: url('image/image.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.problem {
+  background-color: #ffffff;
+  height: 719px;
+  padding-top: 48px;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+.text-problem {
+  margin: 0 auto;
+}
+
+.problem h1 {
+  color: #007765;
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.problem p {
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.problem sup {
+  font-size: 15px;
+}
+
+.hero {
+  margin: 0 auto;
+  background-image: url('image/image-9.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+.hero-text {
+  width: 18.5em;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.ppc {
+  margin: 0 auto;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+.text-ppc {
+  margin: 0 auto;
+}
+
+.ppc img {
+  float: left;
+  margin-right: 48px;
+}
+
+.ppc p {
+  color: #000000;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.team {
+  padding-right: 55px;
+  padding-left: 55px;
+  margin: 0 auto;
+}
+
+.team h1 {
+  color: #007765;
+  font-weight: 500;
+  text-align: center;
+  font-size: 64px;
+}
+
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+  color: #333333;
+}
+
+.footer {
+  background-color: #333333;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 55px 62px 55px;
+}
+
+.footer p {
+  width: 30em;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
